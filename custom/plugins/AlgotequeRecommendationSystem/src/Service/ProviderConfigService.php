@@ -2,7 +2,7 @@
 
 namespace AlgotequeRecommendationSystem\Service;
 
-use custom\plugins\AlgotequeRecommendationSystem\src\DTO\ProviderDTO;
+use AlgotequeRecommendationSystem\DTO\ProviderDTO;
 
 class ProviderConfigService
 {

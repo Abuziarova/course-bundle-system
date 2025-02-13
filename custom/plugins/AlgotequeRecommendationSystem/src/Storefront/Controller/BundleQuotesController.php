@@ -2,7 +2,7 @@
 
 namespace AlgotequeRecommendationSystem\Storefront\Controller;
 
-use custom\plugins\AlgotequeRecommendationSystem\src\Service\QuoteCalculatorService;
+use AlgotequeRecommendationSystem\Service\QuoteCalculatorService;
 use AlgotequeRecommendationSystem\Validator\TopicRequestDataValidator;
 use Shopware\Storefront\Controller\StorefrontController;
 use Symfony\Component\HttpFoundation\Request;

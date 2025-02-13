@@ -2,11 +2,11 @@
 
 namespace AlgotequeRecommendationSystem\Service;
 
-use custom\plugins\AlgotequeRecommendationSystem\src\DTO\ProviderDTO;
+use AlgotequeRecommendationSystem\DTO\ProviderDTO;
 use AlgotequeRecommendationSystem\DTO\TopicsRequestDTO;
-use custom\plugins\AlgotequeRecommendationSystem\src\Service\CalculationStrategy\SingleMatchingCalculationStrategy;
-use custom\plugins\AlgotequeRecommendationSystem\src\Service\CalculationStrategy\DoubleMatchingCalculationStrategy;
-use custom\plugins\AlgotequeRecommendationSystem\src\Service\ProviderConfigService;
+use AlgotequeRecommendationSystem\Service\CalculationStrategy\SingleMatchingCalculationStrategy;
+use AlgotequeRecommendationSystem\Service\CalculationStrategy\DoubleMatchingCalculationStrategy;
+use AlgotequeRecommendationSystem\Service\ProviderConfigService;
 
 class QuoteCalculatorService
 {

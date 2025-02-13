@@ -1,0 +1,32 @@
+{
+    "name": "algoteque/recommendation-system",
+    "description": "Course bundle recommendation system",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "authors": [
+        {
+          "name": "Julia Abuziarova"
+        }
+      ],
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "AlgotequeRecommendationSystem\\AlgotequeRecommendationSystem",
+        "label": {
+            "de-DE": "Course bundle recommendation system",
+            "en-GB": "Course bundle recommendation system"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "AlgotequeRecommendationSystem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlgotequeRecommendationSystem\\Tests\\": "tests/"
+        }
+    }
+}

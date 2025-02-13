@@ -11,8 +11,12 @@ git clone git@github.com:Abuziarova/KK-Course-Bundle-System.gitt
 ```
 sudo chgrp -R 33 ./
 ```
+3. In the local main project folder create .env file:
+```
+cp .env.dist .env
+```
 
-3. Run the docker containers:
+4. Run the docker containers:
 ``` 
  docker compose up -d
 ```
@@ -21,17 +25,17 @@ sudo chgrp -R 33 ./
 
 ### Inside the 'shopware' container
 
-4. Run in the container
+5. Run in the container
 ```
 composer install 
 ```
 
-5. Install the system
+6. Install the system
 ```
  bin/console system:install
 ```
 
-5. Instal plugin
+7. Instal plugin
 ```
 bin/console plugin:install --activate AlgotequeRecommendationSystem
 ```
